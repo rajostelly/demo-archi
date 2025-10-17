@@ -1,0 +1,14 @@
+* {
+  @apply subpixel-antialiased;
+}
+
+html,
+body {
+  @apply h-full;
+}
+
+body {
+  @apply bg-white
+    text-gray-900
+    motion-safe:scroll-smooth;
+}

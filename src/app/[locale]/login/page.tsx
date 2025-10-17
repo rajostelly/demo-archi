@@ -1,14 +1,13 @@
 'use client';
 
-import { Badge } from '@/components/pieces/badge';
-import React from 'react';
-import { useStore } from '@/stores/exemple';
-import { Button } from '@/components/pieces/button';
 import { useTranslations, useLocale } from 'next-intl';
 
-type Props = {};
+import AvatarContainer from '@/components/containers/AvatarContainer';
+import { Badge } from '@/components/pieces/badge';
+import { Button } from '@/components/pieces/button';
+import { useStore } from '@/stores/exemple';
 
-const Login = (props: Props) => {
+const Login = () => {
   const { count, inc } = useStore();
   const t = useTranslations('Home');
   const locale = useLocale();
@@ -19,6 +18,7 @@ const Login = (props: Props) => {
     <div className="mr-20 bg-green-200 pl-12">
       Login
       <h1 className="text-3xl">{t('title')}</h1>
+      <AvatarContainer />
       <Badge aria-checked variant={'platform'}>
         New
       </Badge>

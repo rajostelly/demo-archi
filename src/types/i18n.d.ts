@@ -6,7 +6,7 @@ import type {
 } from "next-intl";
 import type { ReactNode } from "react";
 
-import type { I18nTranslationStructure } from "./src/i18n/messages/en.json";
+import type { I18nTranslationStructure } from "../i18n/messages/en.json";
 // type I18nTranslationStructure = typeof import('./messages/fr.json');
 
 type DeepKeys = DeepKeyOf<I18nTranslationStructure>;
