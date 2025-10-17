@@ -1,15 +1,15 @@
 @reference "../../../styles/index.css";
 
 .BoardCard {
-  @apply rounded-2xl bg-white border border-gray-200 py-7 px-6;
-  @apply flex flex-col gap-6 justify-between items-start min-h-32;
+  @apply rounded-2xl border border-gray-200 bg-white px-6 py-7;
+  @apply flex min-h-32 flex-col items-start justify-between gap-6;
   .card-header {
-    @apply w-full flex items-start justify-between gap-6;
+    @apply flex w-full items-start justify-between gap-6;
     .board-name {
       @apply text-2xl font-semibold text-gray-900;
     }
   }
   .board-description {
-    @apply text-gray-600 font-normal;
+    @apply font-normal text-gray-600;
   }
 }
