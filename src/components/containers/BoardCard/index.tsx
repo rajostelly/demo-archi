@@ -8,7 +8,7 @@
 // type Props = {
 //   board: BoardDTO
 // }
-// const BoardCard = ({
+// const BoardCardContainer = ({
 //   board
 // }: Props) => {
 //   const {
@@ -35,4 +35,4 @@
 //   )
 // }
 
-// export default BoardCard;
+// export default BoardCardContainer;
