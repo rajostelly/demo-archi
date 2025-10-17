@@ -1,0 +1,25 @@
+@reference "../../../styles/index.css";
+
+.icon {
+  @apply m-0 p-0;
+}
+
+.xs {
+  @apply size-3;
+}
+
+.sm {
+  @apply size-4;
+}
+
+.md {
+  @apply size-5;
+}
+
+.lg {
+  @apply size-6;
+}
+
+.xl {
+  @apply size-10;
+}
